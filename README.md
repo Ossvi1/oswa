@@ -1,27 +1,41 @@
-# Sistema de Concierto - Pilas y Colas 🎶
+<h1 align="center">🎶 Sistema de Concierto - Pilas y Colas</h1>
 
-**Nombre:** Oswaldo Martinez Vidaña  
-**Grupo:** Grupo X | Materia: Estructura de Datos  
+**Nombre:** LUIS ALBERTO FIGUEROA GONZÁLEZ  
+**Grupo:** 11 a 2 | Materia: Estructura de Datos  
 
-## 🎯 Descripción
+## 🎯 Descripción  
 Sistema web con Flask que simula:
+
 - Una **cola** para personas esperando su entrada al concierto.
 - Una **pila** con el historial de actos presentados, permitiendo deshacer el último.
 
-## 🚀 Instrucciones
-### Instalación
-1. Clona el repositorio o descarga el ZIP.
-2. Instala Flask:
-```bash
-pip install flask
-```
+## 🚀 ¿Cómo instalar y ejecutar este proyecto?
 
-### Ejecución
-```bash
-python app.py
-```
-Abre tu navegador en [http://127.0.0.1:5000](http://127.0.0.1:5000)
+1. **Descarga o clona el repositorio**
+   ```bash
+   git clone https://github.com/Ossvi1/Colas-y-Pilas.git
+   cd Colas-y-Pilas
+   ```
+
+2. **Crea y activa un entorno virtual, instala dependencias y ejecuta la app**
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate   # En Windows
+   source venv/bin/activate   # En Mac/Linux
+   pip install flask
+   python app.py
+   ```
+
+   Luego abre tu navegador y entra a:
+   ```
+   http://localhost:5000
+   ```
 
 ## 🖼️ Ejemplo de uso
-- Ve a **Entrada al Concierto** para agregar personas a la cola.
-- Ve a **Historial de Actos** para gestionar presentaciones.
+
+- En **Entrada al Concierto (Cola)** puedes agregar nombres de personas a la fila.
+- Al presionar **"Atender siguiente"**, se elimina al primero de la fila y se muestra un mensaje con su nombre.
+- En **Historial de Actos (Pila)** puedes añadir actos del concierto (por ejemplo: Banda 1, DJ Set, etc.).
+- Al presionar **"Quitar último acto"**, se elimina el último acto añadido.
+
+¡Perfecto para aprender estructuras de datos en acción usando Flask y Bootstrap!
