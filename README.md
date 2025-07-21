@@ -39,5 +39,3 @@ Sistema web con Flask que simula:
 - Al presionar **"Quitar último acto"**, se elimina el último acto añadido.
 
 ## 🎬 Ejemplo de cómo debería funcionar
-
-<img src="https://raw.githubusercontent.com/Ossvi1/Colas-y-Pilas/main/assets/COLAS%20Y%20PLILAS.gif" alt="Demostración del sistema" width="500">
