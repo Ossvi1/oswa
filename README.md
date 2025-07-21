@@ -38,4 +38,6 @@ Sistema web con Flask que simula:
 - En **Historial de Actos (Pila)** puedes añadir actos del concierto (por ejemplo: Banda 1, DJ Set, etc.).
 - Al presionar **"Quitar último acto"**, se elimina el último acto añadido.
 
-¡Perfecto para aprender estructuras de datos en acción usando Flask y Bootstrap!
+## 🎬 Ejemplo de cómo debería funcionar
+
+<img src="https://raw.githubusercontent.com/Ossvi1/Colas-y-Pilas/main/assets/COLAS%20Y%20PLILAS.gif" alt="Demostración del sistema" width="500">
